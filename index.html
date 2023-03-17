@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-177242401-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-177242401-1');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cilga Iscan Tercanli - Front End Web Developer</title>
+    <meta name="description" content="A Front End Web Developer passionate about creating interactive applications and experiences on the web." />
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.lineicons.com/2.0/LineIcons.css">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+  <!-- Mobile menu button -->
+  <div id="home" class="visuallyHidden"></div>
+  <div class="menuButton" id="menuButton" tabindex=0>
+    <div class="linesContainer">
+      <span></span>
+    </div>
+  </div>
+  <!-- Side menu -->
+  <aside class="sideMenu sideMenuShow" id="sideMenu"> 
+    <p class="logo"></p>
+
+    <nav>
+      <ul class="navBar">
+        <li class="homeNav">
+          <a href="#home" class="navItem" aria-label="">
+            <i class="lni lni-home"></i>
+            <span class="navItemName">HOME</span>
+          </a>
+        </li>
+        <li class="aboutNav">
+          <a href="#about" class="navItem">
+            <i class="lni lni-user"></i>
+            <span class="navItemName">ABOUT</span>
+          </a>
+        </li>
+        <li class="skillsNav">
+          <a href="#skills" class="navItem">
+            <i class="lni lni-code-alt"></i>
+            <span class="navItemName">SKILLS</span>
+          </a>
+        </li>
+        <li class="worksNav">
+          <a href="#works" class="navItem">
+            <i class="lni lni-briefcase"></i>
+            <span class="navItemName">WORKS</span>
+          </a>
+        </li>
+        <li class="contactNav">
+          <a href="#contact" class="navItem">
+            <i class="lni lni-phone"></i>
+            <span class="navItemName">CONTACT</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="scrollDown" id="scrollDown">
+      <i class="lni lni-arrow-down"></i>
+      <span class="navItemName scrollDownText">Scroll Down</span>
+    </div>
+  </aside>
+
+  <!--Beginning of the wrapper -->
+  <div class="outerWrapper"> 
+    <div class="innerWrapper">
+      <!-- Header -->
+      <header>
+        <div class="heroImageContainer">
+          <img src="https://www.cilgaiscan.com/assets/images/cilgaiscan.jpg" alt="A picture of Alex Calia.">
+        </div>
+        <div class="heroDescription">
+          <p class="greeting">HI THERE! I'M</p>
+          <h1><span>CILGA</span> ISCAN TERCANLI</h1>
+          <p class="smallBio">A <span>Front-End Web Developer</span> passionate about accessibility</p>
+          <div class="socialsResume">
+            <a class="resumeLink" href="assets/CilgaIscanTercanli_Resume.pdf" alt="Cilga Iscan Tercanl's resumé" target="_blank" rel="noopener noreferrer">Resumé</a>
+            <ul class="socialsList">
+              <li>
+                <a href="https://www.linkedin.com/in/cilga-iscan" target="_blank" rel="noopener noreferrer"><i class="lni lni-linkedin-original" aria-label="Link to Cilga's LinkedIn page."></i></a>
+              </li>
+              <li>
+                <a href="https://github.com/cilgaiscan" target="_blank" rel="noopener noreferrer"><i class="lni lni-github-original" aria-label="Link to Cilga's GitHub page."></i></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/cilgaiscan" target="_blank" rel="noopener noreferrer"><i class="lni lni-twitter-original" aria-label="Link to Cilga's Twitter profile."></i></a>
+              </li>
+              <li>
+                <a href="https://codepen.io/cilgaiscan" target="_blank" rel="noopener noreferrer"><i class="lni lni-codepen" aria-label="Link to Cilga's Codepen page."></i></a>
+              </li>
+              <li>
+                <a href="https://medium.com/cilgaiscan" target="_blank" rel="noopener noreferrer"><i class="lni lni-medium" aria-label="Link to Cilga's Medium blog."></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <!-- Beginning of Main -->
+      <main>
+        <!-- About Section -->
+        <section class="aboutSection" id="about">
+          <div class="sectionHead">
+            <span>SOME INFO</span>
+            <h2>ABOUT ME</h2>
+          </div>
+          
+          <article class="aboutContainer sectionContainer">
+            <p>I'm a front-end web developer with a background in <span>molecular biology and genetics</span>. <br>
+              After gaining expertise in molecular biology and bioinformatics, I decided that developing software is my to-go.
+              To achieve my goal, I took several courses and certificates from <span>Coursera</span> and <span>FreeCodeCamp</span>. <br>
+              Nowadays, I am trying to make web accessible for all and develop my understanding in various techstacks.</p>
+          </article>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skillsSection" id="skills">
+          <div class="sectionHead">
+            <span>CHECK OUT MY</span>
+            <h2>SKILLS</h2>
+          </div>
+        
+          <div class="skillsContainer sectionContainer">
+            <ul class="skillsGrid">
+              <li>
+                <div class="itemContainer">
+                  <img src="assets/skills/html.svg">
+                  <p>HTML</p>
+                </div>
+              </li>
+              <li>
+                <div class="itemContainer">
+                  <img src="assets/skills/css.svg">
+                  <p>CSS</p>
+                </div>
+              </li>
+              <li>
+                <div class="itemContainer">
+                  <img src="assets/skills/sass.svg">
+                  <p>SASS</p>
+                </div>
+              </li>
+              <li>
+                <div class="itemContainer">
+                  <img src="assets/skills/javascript.svg">
+                  <p>Javascript</p>
+                </div>
+              </li>
+              <li>
+                <div class="itemContainer">
+                  <img src="assets/skills/typescript.svg">
+                  <p>Typescript</p>
+                </div>
+              </li>
+              <li>
+                <div class="itemContainer">
+                  <img src="assets/skills/angular.svg">
+                  <p>Angular</p>
+                </div>
+              </li>
+              <li>
+                <div class="itemContainer">
+                  <img src="assets/skills/vue.svg">
+                  <p>Vue</p>
+                </div>
+              </li>
+              <li>
+                <div class="itemContainer">
+                  <img src="assets/skills/accessibility.svg">
+                  <p>A11y</p>
+                </div>
+              </li>
+              <li>
+                <div class="itemContainer">
+                  <img src="assets/skills/git.svg">
+                  <p>Git</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- Works Section -->
+        <section class="worksSection" id="works">
+          <div class="sectionHead">
+            <span>TAKE A LOOK AT MY</span>
+            <h2>PROJECTS</h2>
+          </div>
+
+          <div class="worksContainer sectionContainer">
+            <article class="workBox">
+              <div class="workImageContainer">
+                <img src="assets/projects/hgx2.png" alt="Budget app preview">
+              </div>
+              <div class="workDescribeContainer">
+                <h3>Haydan Gelen Huya Gider - HGX2</h3>
+                <h4>Technologies Used: <span class="techStack">Angular</span>, <span class="techStack">Typescript</span>, <span class="techStack">Material Dessign
+                </span></h4>
+                <ul>
+                  <li>HGX2 is an easy-to-use finance web application to track income and outcome with simple design</li>
+                  <li>Add unit tests for service and component levels</li>
+                  <li>Hosted using AWS solutions. (S3 and CloudFront)</li>
+                </ul>
+                <div class="workLinks">
+                  <a href="https://hgx2.tercanli.com" class="liveLink" target="_blank" rel="noopener noreferrer">Live</a>
+                  <a href="https://github.com/CilgaIscan/budget-app" class="repoLink" target="_blank" rel="noopener noreferrer">Repo</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="workBox">
+              <div class="workImageContainer">
+                <img src="assets/projects/doty.png" alt="To-do app previ">
+              </div>
+              <div class="workDescribeContainer">
+                <h3>doty.app</h3>
+                <h4>Technologies Used: <span class="techStack">Vue</span>, <span class="techStack">Typescript</span>, <span class="techStack">Vuetify</span>, <span class="techStack">GraphQL</span></h4>
+                <ul>
+                  <li>doty.app is a simple to-do app to track daily tasks</li>
+                </ul>
+                <div class="workLinks">
+                  <a href="https://nifty-northcutt-415a52.netlify.app/" class="liveLink" target="_blank" rel="noopener noreferrer">Live</a>
+                  <a href="https://github.com/CilgaIscan/vue-todo-app" class="repoLink" target="_blank" rel="noopener noreferrer">Repo</a>
+                </div>
+              </div>
+            </article>
+
+          </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contactSection" id="contact">
+          <div class="sectionHead">
+            <span>SAY HELLO</span>
+            <h2>CONTACT</h2>
+          </div>
+
+          <div class="contactContainer sectionContainer">
+            <h3>Get in Touch</h3>
+            <div class="contactTypes">
+              <div class="flexContainer">
+                <div class="typeBox">
+                  <i class="lni lni-envelope"></i>
+                  <a href="mailto:cilgaiscan@gmail.com">cilgaiscan@gmail.com</a>
+                  <p>Email Me</p>
+                </div>
+              </div>
+              <div class="flexContainer">
+                <div class="typeBox">
+                  <div class="contactList">
+                      <a href="https://www.linkedin.com/in/cilga-iscan" target="_blank" rel="noopener noreferrer"><i class="lni lni-linkedin-original" aria-label="Link to Cilga's LinkedIn page."></i></a>
+                      <a href="https://twitter.com/cilgaiscan" target="_blank" rel="noopener noreferrer"><i class="lni lni-twitter-original" aria-label="Link to Cilga's Twitter profile."></i></a>
+                  </div>
+                  <p style="font-size: 1rem;">By social media</p>
+                  <p>&nbsp;</p>
+                </div>
+              </div>
+            </div>
+
+        </section>
+      </main> <!-- End of Main -->
+    </div>
+    <!-- Footer -->
+    <footer>
+      <p>&copy; Cilga Iscan Tercanli 2023</p>
+    </footer>
+    <!-- Icons provided by https://lineicons.com/ -->
+  </div> <!-- End of the wrapper -->
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="scripts/index.js"></script>
+</body>
+</html>
